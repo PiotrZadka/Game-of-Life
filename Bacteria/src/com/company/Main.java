@@ -5,10 +5,10 @@ import java.io.InputStreamReader;
 import java.math.BigInteger;
 
 public class Main {
-    static BigInteger x = 1000000000;
-    static BigInteger y = 1000000000;
-    static BigInteger[][] inputTable = new int[x][y];
-    static BigInteger[][] newTable = new int[x][y];
+    static int x = 10;
+    static int y = 10;
+    static int[][] inputTable = new int[x][y];
+    static int[][] newTable = new int[x][y];
 
     public static void main(String[] args) throws IOException {
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
